@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+:root{
+  --rojo: #FF003C;
+  --azul: #6A19FF;
+}
+
+h1{
+  color: var(--azul);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+h2{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
