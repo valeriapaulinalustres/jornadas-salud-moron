@@ -17,16 +17,16 @@ import './app.css'
 
 function App() {
 
-  const tituloInfecciones:string = "Infecciones";
-  const tituloLineas:string = "Líneas";
-  const tituloFormacion:string = "Formación";
-  const tituloPosters:string = "Pósters";
-  const tituloSexual:string = "Sexual";
-  const tituloMultimedia:string= "Multimedia";
-  const tituloRedes:string= "Redes";
-  const tituloCovid:string= "Covid";
-  const tituloModelo1:string= "Modelo1";
-  const tituloModelo2:string= "Modelo2";
+  const tituloInfecciones:string = "Control de Infecciones y Multirresistencia";
+  const tituloLineas:string = "Líneas Priorizadas";
+  const tituloFormacion:string = "Formación en Salud";
+  const tituloPosters:string = "Posters";
+  const tituloSexual:string = "Salud Sexual y Líneas Priorizadas";
+  const tituloMultimedia:string= "Fotos y Multimedia";
+  const tituloRedes:string= "Redes en Salud";
+  const tituloCovid:string= "COVID-19";
+  const tituloModelo1:string= "Hacia un Modelo Integrado 1";
+  const tituloModelo2:string= "Hacia un Modelo Integrado 2";
 
   return (
   <BrowserRouter>

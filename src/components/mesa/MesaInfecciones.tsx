@@ -1,5 +1,6 @@
 
-import Trabajos from '../trabajos/Trabajos'
+import Trabajos from '../trabajos/Trabajos';
+import './mesa.css'
 
 type propsTitle = {
     title:string,

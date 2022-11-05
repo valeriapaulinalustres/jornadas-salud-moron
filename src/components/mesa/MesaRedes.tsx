@@ -1,5 +1,6 @@
 
-import Trabajos from '../trabajos/Trabajos'
+import Trabajos from '../trabajos/Trabajos';
+import './mesa.css'
 
 
 
@@ -21,7 +22,7 @@ function MesaRedes({title}:propsTitle) {
 const modeloIntegrado:Array<trabajos> = [
     
     {nombre: "Adecuación del PRODIABA en el Municipio de Morón", autor: "Marquínez Gobbi ,M.P.; Domínguez, P.; Keimel, S.", link:""},
-    {nombre: "Vigilancia Epidemiológica en el Municipio de Morón. Aplicación “Epi”", autor: "Lustres, V.; Gómez, L.", link:""},
+    {nombre: "Vigilancia Epidemiológica en el Municipio de Morón. Aplicación “Epi”", autor: "Lustres, V.; Gómez, L.", link:"../src/assets/ppt/083.pdfx"},
     {nombre: "Centro de Orientación en Salud: una puerta a la accesibilidad", autor: "Mansilla, P.; Giussani, N.; González, M.; Marullio, G.", link:""},
     {nombre: "Circuito de acceso a videocolonoscopia oportuna para el rastreo de cáncer colorrectal", autor: "Benfatti, N.; Sabatte, F.; Marquínez Gobbi, M.P.", link:""},
     {nombre: "Referencia y Contrarreferencia con el Hospital Posadas, el Hospital Municipal y el Programa Materno Infantil", autor: "González, A.; Marquínez Gobbi, M.P.", link:""},

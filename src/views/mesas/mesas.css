@@ -1,0 +1,11 @@
+.mesas-container{
+    margin: 30px 10% 30px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.size{
+    width: 100%;
+}

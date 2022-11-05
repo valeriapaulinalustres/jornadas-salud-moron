@@ -1,4 +1,32 @@
 .header-container{
     background-color: var(--rojo);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+.logo-header {
+    content: url(/src/assets/logoBlanco.png);
+    width: 200px;
+  margin: 20px 0 20px 0;
+    align-self: center;
+}
+
+.button-volver{
+  background-color: var(--rojo);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.button-volver:hover{
+  background-color: white;
+  color: var(--rojo);
+  box-shadow: 3px 3px 3px gray;
+  border: 1px solid var(--rojo);
 }
 

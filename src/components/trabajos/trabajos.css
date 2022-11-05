@@ -1,0 +1,21 @@
+.trabajos-button{
+    background-color: var(--rojo);
+    margin: 2px;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    border: 1px solid var(--rojo);
+}
+
+.trabajos-button:hover {
+    background-color: white;
+    color: var(--rojo);
+    border: 1px solid grey;
+  }
+
+
+.trabajos-icon{
+    width: 25px;
+    height: 25px;
+}
