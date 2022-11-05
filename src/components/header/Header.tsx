@@ -12,7 +12,7 @@ function Header() {
       <Link to="/" className='logo-header'></Link>
 
       {
-        actualUrl != "http://localhost:3000/" &&
+        actualUrl != "https://jornadas-salud-moron.vercel.app/" &&
         <button
           onClick={() => navigate(-1)} className="button-volver"
         >
