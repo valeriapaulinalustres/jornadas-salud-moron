@@ -16,7 +16,7 @@ function Home() {
       </p>
       <div className="home-buttons-container">
         <Link
-          to="../src/assets/programa.pdf"
+          to="./assets/programa.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download="programa Jornadas de Salud.pdf"
@@ -35,7 +35,7 @@ function Home() {
           </Link>
         </div>
         <Link
-          to="../src/assets/libro.pdf"
+          to="./assets/libro.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download="Libro Jornadas de Salud.pdf"
