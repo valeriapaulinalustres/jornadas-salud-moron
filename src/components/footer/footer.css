@@ -24,7 +24,7 @@
 
 
 .logo-footer {
-    content: url(/src/assets/logoBlanco.png);
+    content: url(/public/assets/logoBlanco.png);
     width: 200px;
     margin: 20px 10px 20px 30px;
     align-self: center;
