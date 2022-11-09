@@ -15,10 +15,8 @@ function Trabajos({link, autor, nombre,}:propsTrabajos) {
   return (
 
   
-    <div>
+    <div className='trabajos-container'>
 
-
-  <div>
   <h3>{nombre}</h3>
   <h4>{autor}</h4>
   {
@@ -38,8 +36,7 @@ function Trabajos({link, autor, nombre,}:propsTrabajos) {
   
 
   }
-  </div>
-  
+ 
     </div>
   )
 }

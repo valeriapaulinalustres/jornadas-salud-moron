@@ -7,7 +7,7 @@ function Mesas() {
   
       <h2>Mesas y Trabajos</h2>
       <h3>Día 1: 26 de Octubre de 2022</h3>
-      <div>
+      <div className='mesas-container-dias'>
         <Link to='./modelo-integrado'>
         <button className='button size'>Mesa 1: HACIA UN MODELO INTEGRADO</button>
         </Link>
@@ -23,7 +23,7 @@ function Mesas() {
 
       </div>
       <h3>Día 2: 27 de Octubre de 2022</h3>
-      <div>
+      <div className='mesas-container-dias'>
       <Link to='./modelo-integrado-dos'>
         <button className='button size'>Mesa 1: HACIA UN MODELO INTEGRADO</button>
         </Link>

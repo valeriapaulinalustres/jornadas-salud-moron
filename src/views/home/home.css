@@ -31,3 +31,14 @@
 .home-icons{
     margin-right: 5px;
 }
+
+@media only screen and (min-width:500px) {
+
+    .home-buttons-pages{
+        flex-direction: row;
+    }
+
+    .description-home{
+        font-size: 20px;
+    }
+}

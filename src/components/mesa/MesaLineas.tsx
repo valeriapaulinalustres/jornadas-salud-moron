@@ -21,7 +21,7 @@ const modeloIntegrado:Array<trabajos> = [
     {nombre: "Estrategia Municipal para la prevención y el abordaje de la sífilis gestacional y congénita.", autor: "Frías, M.; Sala, G.; Lozano, S.", link:""},
     {nombre: "Características de las personas con diagnóstico reciente de infección por vih/sida. Período 2017- julio 2022", autor: "Varrenti, N.; Mellino, M.; Perez, S.; Steinbrecher, L., Rosas, A., Warley, E.", link:""},
     {nombre: "Test rápido de VIH y Sífilis en la Consejería Vespertina", autor: "Boero, B.; Mellino, M.; Merlo, N.; Montes, V.; Navarro, M.; Melina, M.; Salvatierra, N.", link:""},
-    {nombre: "Situación de Tuberculosis en el Municipio de Morón", autor: "Gómez, L.; Lustres, V.; Cieri, N.; Navarro, M.; Marquínez Gobbi, M.P.", link:""},
+    {nombre: "Situación de Tuberculosis en el Municipio de Morón", autor: "Gómez, L.; Lustres, V.; Cieri, N.; Navarro, M.; Marquínez Gobbi, M.P.", link:"../src/assets/ppt/081.pdfx"},
     {nombre: "Capacitación uso de test rápidos y control de calidad. Estrategia para un acceso oportuno y descentralizado en el control de sífilis y HIV.", autor: "Lukjaniec, V.; Pellegrino, V.; Silvestri, L.; Marquínez Gobbi, M.P.", link:""},
     {nombre: "Salud Escolar", autor: "Toledo, V.", link:""},
     {nombre: "Dispositivo de detección, recupero y seguimiento de calendarios de vacunación atrasados. Una oportunidad ganada para el equipo de salud.", autor: "Equipo de enfermería y promotoras del CAPS Dr. Monte.", link:""},

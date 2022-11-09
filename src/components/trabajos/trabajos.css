@@ -1,3 +1,7 @@
+.trabajos-container{
+  width: 100%;
+}
+
 .trabajos-button{
     background-color: var(--rojo);
     margin: 2px;
