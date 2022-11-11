@@ -22,7 +22,7 @@ function App() {
   const tituloFormacion:string = "Formación en Salud";
   const tituloPosters:string = "Posters";
   const tituloSexual:string = "Salud Sexual y Líneas Priorizadas";
-  const tituloMultimedia:string= "Próximamente subiremos las fotos";
+  const tituloMultimedia:string= "Fotos y multimedia";
   const tituloRedes:string= "Redes en Salud";
   const tituloCovid:string= "COVID-19";
   const tituloModelo1:string= "Hacia un Modelo Integrado 1";
