@@ -170,6 +170,7 @@ const slideLength:number = fotos.length
 
   const handleTouchStart = (e:any) => {
     const touchDown = e.touches[0].clientX
+    console.log(touchDown)
     setTouchPosition(touchDown)
 }
 
@@ -203,9 +204,9 @@ const slideLength:number = fotos.length
        
         {fotos.map((el, index) => {
           return (
-            <div className={index === currentSlide ? "slideCurrent" : "slide"} key={index}>
+            <div className={index === currentSlide ? "slideCurrent" : "slide"} key={index} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
               {index === currentSlide && (
-                  <img src={el.url} width="100%"  alt={el.nombre} className="carouselImg" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}/>
+                  <img src={el.url} width="100%"  alt={el.nombre} className="carouselImg" />
 
               )
               }
