@@ -117,24 +117,13 @@ function Multimedia({title}:propsTitle) {
         {nombre: "102.jpg", url: "./assets/fotos/102.jpeg"},
         {nombre: "103.jpg", url: "./assets/fotos/103.jpeg"},
         {nombre: "104.jpg", url: "./assets/fotos/104.jpeg"},
-       
 
-
-
-
-       
-
-           
-
-      
-       
-      
-      
       ]
 
 
   const [style, setStyle] = useState({});
-  const [currentSlide, setCurrentSlide] = useState(0)
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [touchPosition, setTouchPosition] = useState(null)
 
 const slideLength:number = fotos.length
 
@@ -178,19 +167,45 @@ const slideLength:number = fotos.length
 
   //--------------------------------------------------------
 
+
+  const handleTouchStart = (e:any) => {
+    const touchDown = e.touches[0].clientX
+    setTouchPosition(touchDown)
+}
+
+  const handleTouchMove = (e:any) => {
+    const touchDown = touchPosition
+
+    if(touchDown === null) {
+        return
+    }
+
+    const currentTouch = e.touches[0].clientX
+    const diff = touchDown - currentTouch
+
+    if (diff > 5) {
+        nextSlide()
+    }
+
+    if (diff < -5) {
+      prevSlide()
+    }
+
+    setTouchPosition(null)
+}
   return (
     <>
      <h2 className='carousel-title'>{title}</h2>
       <div className='carousel-container'>
        
-        <div className="arrowPrev" onClick={prevSlide}>{"<"}</div>
-        <div className="arrowNext" onClick={nextSlide}>{">"}</div>
+        <div className="arrowPrev" onClick={prevSlide} >{"<"}</div>
+        <div className="arrowNext" onClick={nextSlide} >{">"}</div>
        
         {fotos.map((el, index) => {
           return (
             <div className={index === currentSlide ? "slideCurrent" : "slide"} key={index}>
               {index === currentSlide && (
-                  <img src={el.url} width="100%"  alt={el.nombre} className="carouselImg" />
+                  <img src={el.url} width="100%"  alt={el.nombre} className="carouselImg" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}/>
 
               )
               }
