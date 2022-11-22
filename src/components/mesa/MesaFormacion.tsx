@@ -18,7 +18,7 @@ function MesaFormacion({title}:propsTitle) {
 
 
 const modeloIntegrado:Array<trabajos> = [
-    {nombre: "Ateneos clínicos ¿Por qué y Para qué?", autor: "Rosas, A.; Delavalle, A.; Negri, G.; Lozada, C.; Carranza, B.; Mellino, M.; Ghanem, K.; Coaquira, E.; Ferigo, N.; Aguilar, F.; Fossati, A.; Goberna, L.; Baptista, Y.; Ghanem, I.", link:""},
+    {nombre: "Ateneos clínicos ¿Por qué y Para qué?", autor: "Rosas, A.; Delavalle, A.; Negri, G.; Lozada, C.; Carranza, B.; Mellino, M.; Ghanem, K.; Coaquira, E.; Ferigo, N.; Aguilar, F.; Fossati, A.; Goberna, L.; Baptista, Y.; Ghanem, I.", link:"./assets/ppt/009.pptx"},
     {nombre: "Avances educativos y personales en épocas de pandemia. Servicio de Tocoginecología.", autor: "Britos, N., Casco, J., Orlandi, M., De Stefano, Y., González, G., Torres, E.", link:""},
     {nombre: "Programa de Educación Continua en Trauma y Urgencias al final de una Pandemia Viral.", autor: "Algieri, R. ; Ferrante, S.; Fernández, J. P. ; Ruschioni Martín, C.; Brofman, C. C.; Insfrán, H.;Gillardot, A.; Martínez, M.; Mazola, S.; González, M.; Carranza, R.", link:""},
     {nombre: "Educación: Formación de Liderazgo y Trabajo en Equipo en Emergencias y Urgencias durante el Período de Pandemia por COVID-19", autor: "Algieri, R.; Ferrante, S.; Fernández, J.P; ; Brofman, C.; Insfran, H.", link:""},

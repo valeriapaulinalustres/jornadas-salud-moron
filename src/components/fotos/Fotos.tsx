@@ -18,12 +18,7 @@ function Fotos({url, nombre,}:propsFotos) {
 
 <img src={url} alt={nombre} width="100%"/>
 
- 
 
-  
-
-  
- 
     </div>
   )
 }

@@ -17,12 +17,12 @@ function MesaCovid({title}:propsTitle) {
 
 
 const modeloIntegrado:Array<trabajos> = [
-  {nombre: "Algunos de los dispositivos de acompañamiento telefónico en Salud Mental durante la Pandemia COVID-19.", autor: "Collado, F.; David, N.; Díaz, V.; Graziano, M. C.; Maceira, S.; Novaro, C; Quiroga, M; Sobrino, R.; Sueldo, C.", link:""},
-  {nombre: "Angustia y pandemia. La lógica de la entrada en análisis.", autor: "Mandet, D.", link:""},
+  {nombre: "Algunos de los dispositivos de acompañamiento telefónico en Salud Mental durante la Pandemia COVID-19.", autor: "Collado, F.; David, N.; Díaz, V.; Graziano, M. C.; Maceira, S.; Novaro, C; Quiroga, M; Sobrino, R.; Sueldo, C.", link:"./assets/ppt/084.pptx"},
+  {nombre: "Angustia y pandemia. La lógica de la entrada en análisis.", autor: "Mandet, D.", link:"./assets/ppt/066.pptx"},
   {nombre: "El papel de Enfermería en los testeos de COVID-19.", autor: "Zampini, V.; Toledo. V.", link:""},
   {nombre: "Reconfiguración del Servicio de Emergencias ante la aparición de una Pandemia Infectocontagiosa", autor: "Algieri, R.; Ruschioni, C.; Gillardot, A.", link:""},
-  {nombre: "Análisis de la aparición de alteraciones traqueales en pacientes en asistencia ventilatoria mecánica prolongada y traqueostomizados con COVID-19", autor: "Campos, V.; Packauskas, L.", link:""},
-  {nombre: "Deglución y alimentación en pacientes traqueostomizados", autor: "Campos, V.; Packauskas, L.", link:""},
+  {nombre: "Análisis de la aparición de alteraciones traqueales en pacientes en asistencia ventilatoria mecánica prolongada y traqueostomizados con COVID-19", autor: "Campos, V.; Packauskas, L.", link:"./assets/ppt/001.pptx"},
+  {nombre: "Deglución y alimentación en pacientes traqueostomizados", autor: "Campos, V.; Packauskas, L.", link:"./assets/ppt/002.pptx"},
   {nombre: "Deglución y alimentación en pacientes traqueostomizados", autor: "Stepaniuk, R.; Cobarrubia, C.", link:""},
 ]
   return (
