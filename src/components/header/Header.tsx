@@ -10,7 +10,6 @@ function Header() {
   return (
     <div className='header-container'>
       <Link to="/" className='logo-header'></Link>
-
       {
         actualUrl != "https://jornadas-salud-moron.vercel.app/" &&
         <button
