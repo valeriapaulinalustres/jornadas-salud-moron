@@ -21,7 +21,7 @@ function Trabajos({ link, autor, nombre, }: propsTrabajos) {
           to={link}
           target="_blank"
           rel="noopener noreferrer"
-          download={`Presentación ${nombre}.pptx`}
+          download={nombre}
         >
           <button className='trabajos-button'>
             <HiOutlineDownload className='trabajos-icon' />
