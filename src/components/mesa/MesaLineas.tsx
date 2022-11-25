@@ -36,7 +36,7 @@ function MesaLineas({ title }: propsTitle) {
         {
             nombre: "Situación de Tuberculosis en el Municipio de Morón",
             autor: "Gómez, L.; Lustres, V.; Cieri, N.; Navarro, M.; Marquínez Gobbi, M.P.",
-            link: "../../assets/ppt/081.pdfx"
+            link: "../../assets/ppt/081.pptx"
         },
         {
             nombre: "Capacitación uso de test rápidos y control de calidad. Estrategia para un acceso oportuno y descentralizado en el control de sífilis y HIV.",

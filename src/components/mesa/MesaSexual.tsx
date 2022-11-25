@@ -17,9 +17,9 @@ function MesaSexual({ title }: propsTitle) {
   const modeloIntegrado: Array<trabajos> = [
 
     {
-      nombre: "Aborto legal: 1er año ley de IVE contado desde el Caps Dr. Monte: un equipo con 10 años acompañando historias de personas en situación de aborto.",
+      nombre: "Aborto legal. 1er año ley de IVE contado desde el Caps Dr. Monte. Un equipo con 10 años acompañando historias de personas en situación de aborto.",
       autor: "Ayala, C.; Carattozolo, C. G.",
-      link: "../../assets/ppt/058.pptx"
+      link: "../../assets/ppt/058.ppt"
     },
     {
       nombre: "Dispositivo IVE/ILE, nuestra experiencia hospitalaria. Hospital Municipal “Ostaciana B. de Lavignolle”. Morón.",

@@ -24,7 +24,7 @@ function MesaModelo1({ title }: propsTitle) {
     {
       nombre: "Indicadores Hospitalarios en internación",
       autor: "Córdoba, S. ; Orellano, P.",
-      link: "../../assets/ppt/013.pptx"
+      link: "../../assets/ppt/013.ppt"
     },
     {
       nombre: "Internación en Servicio de Emergencias",

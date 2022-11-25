@@ -55,7 +55,7 @@ function MesaModelo2({ title }: propsTitle) {
     {
       nombre: "La educación como pilar de tratamiento",
       autor: "Miner Jaume, Ma. J.; Vidal Zinno, P. A.",
-      link: "../../assets/ppt/064.pptx"
+      link: "../../assets/ppt/064.pptm"
     },
     {
       nombre: "Reinventando-nos: PIM",

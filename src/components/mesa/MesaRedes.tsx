@@ -24,9 +24,9 @@ function MesaRedes({ title }: propsTitle) {
       link: "../../assets/ppt/079.pptx"
     },
     {
-      nombre: "Vigilancia Epidemiológica en el Municipio de Morón. Aplicación “Epi”",
+      nombre: 'Vigilancia Epidemiológica en el Municipio de Morón. Aplicación "EPI"',
       autor: "Lustres, V.; Gómez, L.",
-      link: "../../assets/ppt/083.ppt"
+      link: "../../assets/ppt/083.pptx"
     },
     {
       nombre: "Centro de Orientación en Salud: una puerta a la accesibilidad",
